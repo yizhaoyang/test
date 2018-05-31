@@ -110,14 +110,25 @@
                     </div>
                     <div class="col-md-9">
                         Product Manager Intern - MDigital Group
-                        <ul class="text-justify">
+                        <div id='normal'>
+                            <ul class="text-justify">
+                                <li>Conceptualized a fitness digital service in terms of content, functionalities and user interface. </li>
+                                <li>Benchmarked the competitors and defined a unique value proposition and positioning. </li>
+                            <a href="#" onclick="document.getElementById('normal').style.display='none';
+                            document.getElementById('hiden').style.display='inline';" style="text-align:right;">show more</a>
+                        </div>
+                        <div id='hiden'>
+                            <ul class="text-justify">
                                 <li>Conceptualized a fitness digital service in terms of content, functionalities and user interface. </li>
                                 <li>Benchmarked the competitors and defined a unique value proposition and positioning. </li>
                                 <li>Collaborated with developer and UI designer on websites/app improvement through prototyping, business requirement definition & prioritization and de-bugging. </li>
                                 <li>Engaged in a series of Facebook campaign, with the optimized CPC $0.22, CTR 21%; identified a niche segment with highest conversion potential.</li>
                                 <li>Designed and executed a video shooting plan, working with models, videographers, studio rental companies and freelancers, cost reduced by 80% off the budget.</li>
                                 <li>Other ad-hocs about online insurance, e-commerce and cashback project.</li>
-                              </ul>
+                            <a href="#" onclick="document.getElementById('normal').style.display='inline';
+                            document.getElementById('hiden').style.display='none';" style="text-align:right;">show less</a>
+                        </div>
+
                     </div>
                   </div>
                   <div class="row align-items-top">
@@ -136,6 +147,22 @@
           </div>
         </div>
       </div>
+
+<!-- show and hide
+      <div id='normal'>
+        This is a normal div.
+        <a href="#" onclick="document.getElementById('normal').style.display='none';
+        document.getElementById('hiden').style.display='inline';">Hide this div and show other div</a>
+      </div>
+      <div id='hiden'>
+          This is a normal div. wait...not anymroe
+          <a href="#" onclick="document.getElementById('normal').style.display='inline';
+          document.getElementById('hiden').style.display='none';">Hide this div and show the original div</a>
+      </div>
+
+      -->
+
+
       
    
     <!-- Optional JavaScript -->
